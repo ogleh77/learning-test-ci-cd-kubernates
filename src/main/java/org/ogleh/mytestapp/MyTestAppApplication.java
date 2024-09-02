@@ -19,7 +19,7 @@ public class MyTestAppApplication {
         return "Hello World!";
     }
 
-    @GetMapping("/name")
+    @GetMapping("/{name}")
     public String greeting(@PathVariable("name") String name) {
         return "Hello " + name;
     }
