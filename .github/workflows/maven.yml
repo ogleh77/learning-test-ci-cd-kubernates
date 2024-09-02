@@ -45,7 +45,7 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: ogleh/learn-kuberenates-with-cicd:latest
+          tags: ogleh/learn-kuberenates-with-cicd:v1,ogleh/learn-kuberenates-with-cicd:latest
 
 #    # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
 #    - name: Update dependency graph

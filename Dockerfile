@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM openjdk:17
 LABEL authors="mohamedogleh"
 COPY target/my-test-app-0.0.1-SNAPSHOT.jar test-app.jar
 EXPOSE 8080
